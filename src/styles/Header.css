@@ -1,0 +1,89 @@
+.banner {
+    width: 100%;
+    height: 1vh;
+    padding: 15px 0;
+    background: linear-gradient(97.53deg, rgb(246, 135, 179) 5.6%, rgb(123, 97, 255) 59.16%, rgb(22, 209, 161) 119.34%);
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
+    transition: all .8s;
+    color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+@media (max-width: 600px) {
+    .banner {
+        height: 5vh;
+    }
+}
+
+.banner-img{
+    height:30px;
+    width:30px;
+    margin-right:0.5rem;
+}
+
+.banner-text{
+    font-size: 0.9rem;
+    font-weight: 450;
+}
+@media (max-width: 300px) {
+    .banner-text {
+        font-size: 1.5vh;
+    }
+}
+@media (max-width: 100px) {
+    .banner-text {
+        font-size: 1.2vh;
+    }
+}
+
+
+.right-icon{
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color:rgb(246, 135, 179) 5.6% ;
+    margin-right: 1.2rem;
+    
+}
+@media (max-width: 100px) {
+    .right-icon {
+        height: 25px;
+        width:25px
+    }
+}
+
+
+.nav-bar{
+    width:100%;
+    height:10vh;
+    background-color: white;
+    /* padding : 1rem; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:rgb(26, 25, 25) ;
+}
+
+.nav-img{
+    width:100px;
+    height:80px;
+}
+.nav-coin-options{
+    margin-left:5rem;
+}
+.nav-tools{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right:5rem;
+   
+}
+
+.subHead{
+    height:40vh;
+    margin-top:1rem;
+    background: linear-gradient(to right, rgb(63, 81, 181), rgb(100, 181, 246)) rgb(255, 255, 255) !important;
+    
+}
+
